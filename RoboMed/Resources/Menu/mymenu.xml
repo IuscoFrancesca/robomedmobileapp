@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/btnChange"
+        android:title="Schimbare mod control" />
+  <item android:id="@+id/btnView"
+          android:title="Vizualizare alarme" />
+  <item android:id="@+id/btnDisconnect"
+          android:title="Deconectare" />
+</menu>

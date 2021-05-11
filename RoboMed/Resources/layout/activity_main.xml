@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#DCDCDC"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:minWidth="100px"
+        android:minHeight="1100px"
+        android:layout_width="fill_parent"
+        android:layout_height="564.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="0.0dp">
+        <ImageView
+            android:src="@drawable/logorobo1"
+            android:layout_marginTop="-300px"
+            android:layout_marginBottom="10px"
+            android:layout_width="312px"
+            android:layout_height="312px"
+            android:id="@+id/imageView1" />
+        <TextView
+            android:text="Autentificare"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="-30px"
+            android:layout_marginBottom="50px"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Nume utilizator"
+            android:textSize="40px"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblName" />
+        <EditText
+            android:hint="Nume utilizator"
+            android:layout_width="350dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:id="@+id/txtName"
+            android:layout_marginLeft="0.0dp" />
+        <TextView
+            android:text="Parolă"
+            android:textSize="40px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblPassword" />
+        <EditText
+            android:hint="Parolă"
+            android:layout_width="350dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:id="@+id/txtPassword"
+            android:layout_marginLeft="0.0dp"
+            android:inputType="textPassword"/>
+        <Button
+            android:text="Autentificare"
+            android:layout_width="500px"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:background="#00FA9A"
+            android:layout_toLeftOf="@id/linearLayout1"
+            android:id="@+id/btnLogin"
+            android:autoLink="none"/>
+
+    </LinearLayout>
+</RelativeLayout>
