@@ -33,7 +33,7 @@ namespace RoboMed
         {
             if(username.Text=="admin" && password.Text=="12345")
             {
-                Intent intent = new Intent(this, typeof(LoginActivity));
+                Intent intent = new Intent(this, typeof(MenuActivity));
                 StartActivity(intent);
                 Finish();
 

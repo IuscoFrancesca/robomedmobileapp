@@ -22,7 +22,7 @@
             android:layout_height="312px"
             android:id="@+id/imageView1" />
         <TextView
-            android:text="Meniu"
+            android:text="Schimbarea modului de control"
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginTop="-30px"
@@ -32,31 +32,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />
         <Button
-        android:text="Schimbare Mod Control"
+        android:text="Control de la distanta"
         android:layout_width="500px"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
         android:background="#00FA9A"
         android:layout_toLeftOf="@id/linearLayout1"
-        android:id="@+id/btnChange" 
+        android:id="@+id/btnRemote" 
         android:autoLink="none"/>
          <Button
-        android:text="Alarme"
+        android:text="Teleghidaree"
         android:layout_width="500px"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
         android:background="#00FA9A"
         android:layout_toLeftOf="@id/linearLayout1"
-        android:id="@+id/btnAlarms" 
+        android:id="@+id/btnTeleghidare" 
         android:autoLink="none"/>
-         <Button
-        android:text="Deconectare"
-        android:layout_width="500px"
-        android:layout_marginTop="20dp"
-        android:layout_height="wrap_content"
-        android:background="#00FA9A"
-        android:layout_toLeftOf="@id/linearLayout1"
-        android:id="@+id/btnDisconnect" 
-        android:autoLink="none"/>
+        
     </LinearLayout>
 </RelativeLayout>

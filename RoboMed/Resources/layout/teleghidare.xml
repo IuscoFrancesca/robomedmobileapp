@@ -22,7 +22,7 @@
             android:layout_height="312px"
             android:id="@+id/imageView1" />
         <TextView
-            android:text="Sunteti sigur ca doriti sa va deconectati?"
+            android:text="Control prin teleghidare"
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginTop="-30px"
@@ -31,19 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />
-        <Button
-            android:text="Da"
-            android:layout_width="90.0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnYes"
-            android:layout_marginRight="0.0dp" />
-        <Button
-            android:text="Nu"
-            android:layout_width="90.0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnNo"
-            android:layout_marginRight="0.0dp" />
-
-
+        
+        
     </LinearLayout>
 </RelativeLayout>
