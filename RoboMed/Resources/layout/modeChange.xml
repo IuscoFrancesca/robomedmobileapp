@@ -41,7 +41,7 @@
         android:id="@+id/btnRemote" 
         android:autoLink="none"/>
          <Button
-        android:text="Teleghidaree"
+        android:text="Teleghidare"
         android:layout_width="500px"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
