@@ -5,7 +5,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
+using RoboMed.Services;
 using System;
+using System.Threading.Tasks;
 
 namespace RoboMed
 {
@@ -29,9 +31,16 @@ namespace RoboMed
             loginButton.Click += LoginClick;
         }
 
-        private void LoginClick(object sender, EventArgs e)
+        private async void LoginClick(object sender, EventArgs e)
         {
-            if(username.Text=="admin" && password.Text=="12345")
+            var userService = new UserService();
+            var token = await userService.Authenticate(username.Text, password.Text);
+            // salveaza tokenul undeva ca sa il folosesti pentru restul request-urilor
+            // aici un exemplu:
+            // client.DefaultRequestHeaders.Authorization =
+            //    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            if (username.Text=="admin" && password.Text=="12345")
             {
                 Intent intent = new Intent(this, typeof(MenuActivity));
                 StartActivity(intent);
