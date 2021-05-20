@@ -31,7 +31,49 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />
+        <Button
+            android:text=""
+            android:layout_width="100px"
+            android:layout_marginTop="20dp"
+            android:layout_height="100px"
+            android:background="#00FA9A"
+            android:layout_toLeftOf="@id/linearLayout1"
+            android:id="@+id/btnFata"
+            android:autoLink="none"/>
+        <Button
+            android:text=""
+            android:layout_width="100px"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="-100dp"
+            android:layout_height="100px"
+            android:background="#00FA9A"
+            android:layout_toLeftOf="@id/linearLayout1"
+            android:id="@+id/btnStanga"
+            android:autoLink="none"
+            android:layout_marginBottom="0.0dp" />
+        <Button
+            android:text=""
+            android:layout_width="100px"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_height="100px"
+            android:background="#00FA9A"
+            android:layout_toLeftOf="@id/linearLayout1"
+            android:id="@+id/btnDreapta"
+            android:autoLink="none"
+            android:layout_marginLeft="22.0dp" />
+        <Button
+            android:text=""
+            android:layout_width="100px"
+            android:layout_marginTop="20dp"
+            android:layout_height="100px"
+            android:background="#00FA9A"
+            android:layout_toLeftOf="@id/linearLayout1"
+            android:id="@+id/btnSpate"
+            android:autoLink="none"/>
         
-        
+
+
+
     </LinearLayout>
 </RelativeLayout>

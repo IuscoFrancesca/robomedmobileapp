@@ -56,7 +56,9 @@ namespace RoboMed
 
         private void DisconnectionClick(object sender, EventArgs e)
         {
-            Finish();
+            Intent intent = new Intent(this, typeof(MainActivity));
+            StartActivity(intent);
+            //Finish();
 
         }
     }

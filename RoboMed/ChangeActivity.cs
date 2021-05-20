@@ -41,9 +41,11 @@ namespace RoboMed
             StartActivity(intent);
         }
 
-        private void RemoteClick(object sender, EventArgs e)
+        private async void RemoteClick(object sender, EventArgs e)
         {
             Toast.MakeText(this, "Controlul de la distanta activat", ToastLength.Long).Show();
+            Intent intent = new Intent(this, typeof(MenuActivity));
+            StartActivity(intent);
         }
     }
 }
