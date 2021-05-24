@@ -31,55 +31,57 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />
-
-
         <LinearLayout
             android:orientation="horizontal"
+            android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="10dp"></LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="76dp">
-
-            <Button
-                android:text="Fata"
-                android:layout_width="175dp"
-                android:layout_height="73dp"
-                android:layout_marginLeft="100dp"
-                android:id="@+id/btnFata" />
+            android:layout_height="100dp">
+            <ImageButton
+                  android:src="@drawable/up"
+                android:contentDescription="description"
+                android:background="#00FA9A"
+                 android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/btnFata"/>
+            
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
+             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="76dp">
-            <Button
-                android:text="Stanga"
-                android:layout_width="150dp"
-                android:layout_height="73dp"
-                android:id="@+id/btnStanga" />
+            android:layout_height="100dp">
+            <ImageButton
+                android:src="@drawable/stanga"
+                android:contentDescription="description"
+                android:background="#00FA9A"
+                 android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="100dp"
+                 android:id="@+id/btnStanga"/>
 
-            <Button
-                android:text="Dreapta"
-                android:layout_width="150dp"
-                android:layout_marginLeft="85dp"
-                android:layout_height="73dp"
-                android:id="@+id/btnDreapta" />
+            <ImageButton
+                android:src="@drawable/dreapta"
+                android:contentDescription="description"
+                android:background="#00FA9A"
+                 android:layout_width="100dp"
+                android:layout_height="100dp"
+                 android:id="@+id/btnDreapta"/>
 
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
+             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="76dp">
+            android:layout_height="100dp">
 
-            <Button
-                android:text="Spate"
-                 android:layout_marginLeft="100dp"
-                android:layout_width="175dp"
-                android:layout_height="73dp"
-                android:id="@+id/btnSpate" />
+            <ImageButton
+                android:src="@drawable/down"
+                android:contentDescription="description"
+                android:background="#00FA9A"
+                 android:layout_width="100dp"
+                android:layout_height="100dp" 
+                android:id="@+id/btnSpate"/>
         </LinearLayout>
          
 

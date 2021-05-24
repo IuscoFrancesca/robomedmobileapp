@@ -34,7 +34,7 @@ namespace RoboMed
         private async void LoginClick(object sender, EventArgs e)
         {
             var userService = new UserService();
-            var token = await userService.Authenticate(username.Text, password.Text);
+           // var token = await userService.Authenticate(username.Text, password.Text);
             // salveaza tokenul undeva ca sa il folosesti pentru restul request-urilor
             // aici un exemplu:
             // client.DefaultRequestHeaders.Authorization =

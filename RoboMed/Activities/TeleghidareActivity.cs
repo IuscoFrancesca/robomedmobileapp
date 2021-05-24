@@ -14,6 +14,7 @@ namespace RoboMed
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class TeleghidareActivity : AppCompatActivity
+
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -21,7 +22,9 @@ namespace RoboMed
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.teleghidare);
 
+
             // Create your application here
         }
+
     }
 }
